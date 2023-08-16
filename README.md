@@ -125,6 +125,6 @@ A curated list of popular Datasets, Models and Papers for LLMs in Medical/Health
   year = {2023},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/onejune2018/Awesome-LLM-Eval}},
+  howpublished = {\url{https://github.com/onejune2018/Awesome-Medical-Healthcare-Dataset-For-LLM}},
 }
 ​```
