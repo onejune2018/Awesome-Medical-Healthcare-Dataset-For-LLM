@@ -126,7 +126,7 @@ A curated list of popular Datasets, Models and Papers for LLMs in Medical/Health
 | LLaVA-Med                | LLaVA          | 13                | multimodal, self-instruct,  curriculum learning | 06/2023  |  https://github.com/microsoft/LLaVA-Med                   |
 | OphGLM                 | ChatGLM        | 6                 | multimodal, Ophthalmology LLM                   | 06/2023  |  https://github.com/ML-AILab/OphGLM                       |
 | SoulChat            | ChatGLM        | 6                 | Mental Healthcare                               | 06/2023  |  https://github.com/scutcyr/SoulChat                      |
-| Med-Flamingo             | Flamingo       | 80B               | multimodal, Few-Shot generative medical VQA     | 07/2023  |  https://github.com/snap-stanford/med-flamingo            |
+| Med-Flamingo             | Flamingo       | 80               | multimodal, Few-Shot generative medical VQA     | 07/2023  |  https://github.com/snap-stanford/med-flamingo            |
 
 
 
