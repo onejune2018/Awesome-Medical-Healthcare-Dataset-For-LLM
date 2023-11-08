@@ -3,8 +3,10 @@ A curated list of popular Datasets, Models and Papers for LLMs in Medical/Health
 
 ## Datasets
 
+### 中文
+
 | 数据集名称 | 内容概述 | 获取链接 | 数据大小 |
-|------|------------|-----------------|-------------|
+|----------|--------|---------|---------|
 | MedDialog | MedDialog数据集（中文）包含了医生和患者之间的对话（中文）。它有110万个对话和400万个话语。数据还在不断增长，会有更多的对话加入。原始对话来自好大夫网。 | [下载链接](https://huggingface.co/datasets/medical_dialog) | 3.3GB |
 |Chinese medical dialogue data 中文医疗对话数据集 | 数据中有六个科室的医学问答数据:<br/>**<Andriatria_男科>** 94596个问答对 **<IM_内科>** 220606个问答对 **<OAGD_妇产科>** 183751个问答对**<Oncology_肿瘤科>** 75553个问答对 **<Pediatric_儿科>** 101602个问答对 **<Surgical_外科>** 115991个问答对 总计 792099个问答对 | [下载链接](https://github.com/Toyhom/Chinese-medical-dialogue-data) | 800k 条，330MB |
 | Huatuo-26M                        | Huatuo-26M 是迄今为止最大的中医问答数据集。该数据集包含超过2600万对高质量的医学问答对，涵盖疾病、症状、治疗和药物信息等广泛主题。                  | [下载链接](https://github.com/FreedomIntelligence/Huatuo-26M)            | 4.54GB |
@@ -25,6 +27,54 @@ A curated list of popular Datasets, Models and Papers for LLMs in Medical/Health
 | HealthCareMagic-100k | 来自HealthCareMagic.com的10万次病人和医生之间的真实对话 | [下载链接](https://drive.google.com/file/d/1lyfqIwlLSClhgrCutWuEe_IACNq6XNUt/view?usp=sharing) |137MB|
 | icliniq-10k | 来自icliniq.com网站的病人和医生之间的10K条真实对话 | [下载链接](https://drive.google.com/file/d/1ZKbqgYqWc7DJHs3N9TQYQVPdDQmZaClA/view) | 20MB |
 | GenMedGPT-5k |5k从ChatGPT GenMedGPT-5k和疾病数据库中生成了患者和医生之间的对话。| [下载链接](https://drive.google.com/file/d/1nDTKZ3wZbZWTkFMBkxlamrzbNz0frugg/view?usp=sharing) | 5K条 |
+
+### 英文
+
+| **数据集名称**                      | **内容概述**                         | **获取链接**                                                                                 | **数据大小**                                                          |
+|-------------------------------|----------------------------------|------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| MIMIC-III                     | EHR                              | https://mimic.mit.edu/docs/iii/                                                          | 58,976 hospital admissions for 38,597 patients                    |
+| MIMIC-IV                      | EHR                              | https://mimic.mit.edu/docs/iv/                                                           | covering a decade of admissions between 2008 and 2019             |
+| CPRD                          | EHR                              | https://cprd.com/data                                                                    | over 2,000 primary care practices and include 60 million patients |
+| PubMed                        | Scientific Literature            | https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/                                            | 35M citations and abstracts of biomedical literature              |
+| PMC                           | Scientific Literature            | https://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk                                             | 8 million full-text article records                               |
+| RCT                           | Scientific Literature            | https://github.com/bwallace/RCT-summarization-data                                       | 4,528 abstract                                                    |
+| MS$\hat{~}$2                  | Scientific Literature            | https://github.com/allenai/ms2/                                                          | 470,402 abstract                                                  |
+| CDSR                          | Scientific Literature            | https://github.com/qiuweipku/Plain\_language\_summarization                              | 7,805 abstract                                                    |
+| SumPubMed                     | Scientific Literature            | https://github.com/vgupta123/sumpubmed                                                   | 33,772 abstract                                                   |
+| The Pile                      | Scientific Literature            | https://pile.eleuther.ai/                                                                | 825 GB English text                                               |
+| S2ORC                         | Scientific Literature            | https://github.com/jbshp/GenCompareSum                                                   | 63,709 abstract                                                   |
+| CORD-19                       | Scientific Literature            | https://github.com/allenai/cord19                                                        | 1M papers                                                         |
+| MeQSum                        | Medical Question Summarization   | https://github.com/abachaa/MeQSum                                                        | 1000 instances                                                    |
+| CHQ-Sum                       | Medical Question Summarization   | https://github.com/shwetanlp/Yahoo-CHQ-Summ                                              | 1507 instances                                                    |
+| UMLS                          | Knowledge Base                   | https://www.nlm.nih.gov/research/umls/index.html                                         | 2M entities for 900K concepts                                     |
+| COMETA                        | Web Data (social media)          | https://github.com/cambridgeltl/cometa                                                   | 800K Reddit posts                                                 |
+| MedDialog                     | Dialogue                         | https://github.com/UCSD-AI4H/COVID-Dialogue                                              | 3.66 million conversations                                        |
+| CovidDialog                   | Dialogue                         | https://github.com/UCSD-AI4H/COVID-Dialogue                                              | 603 consultations                                                 |
+| Medical Flashcards            | Dialogue                         | https://github.com/kbressem/medalpaca                                                    | 33955 instances                                                   |
+| Wikidoc                       | Dialogue                         | https://huggingface.co/datasets/medalpaca/medical\_meadow\_wikidoc                       | 67704 instances                                                   |
+| Wikidoc Patient Information   | Dialogue                         | https://huggingface.co/datasets/medalpaca/medical\_meadow\_wikidoc\_patient\_information | 5942 instances                                                    |
+| MEDIQA                        | Dialogue                         | https://huggingface.co/datasets/medalpaca/medical\_meadow\_wikidoc\_patient\_information | 2208 instances                                                    |
+| CORD-19                       | Dialogue                         | https://huggingface.co/datasets/medalpaca/medical\_meadow\_cord19                        | 1056660 instances                                                 |
+| MMMLU                         | Dialogue                         | https://huggingface.co/datasets/medalpaca/medical\_meadow\_mmmlu                         | 3787 instances                                                    |
+| Pubmed Causal                 | Dialogue                         | https://huggingface.co/datasets/medalpaca/medical\_meadow\_pubmed\_causal                | 2446 instances                                                    |
+| ChatDoctor                    | Dialogue                         | https://github.com/Kent0n-Li/ChatDoctor                                                  | 215000 instances                                                  |
+| Alpaca-EN-AN                  | English Instructions             | https://github.com/tatsu-lab/stanford\_alpaca/blob/main/alpaca\_data.json                | 52K instructions                                                  |
+| Alpaca-CH-AN                  | Chinese Instructions             | https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM/tree/main/data                | 52K instructions                                                  |
+| ShareGPT                      | Conversations                    | https://huggingface.co/datasets/philschmid/sharegpt-raw                                  | 61653 long conversations                                          |
+| WebText                       | Web Data                         | https://commoncrawl.org/the-data/get-started/                                            | 40 GB of text                                                     |
+| OpenWebText                   | Web Data                         | https://skylion007.github.io/OpenWebTextCorpus/                                          | 38 GB of text                                                     |
+| Colossal Clean Crawled Corpus | Web Data                         | https://www.tensorflow.org/datasets/catalog/c4                                           | 806 GB of text                                                    |
+| OpenI                         | EHR, Multimodel                  | https://openi.nlm.nih.gov/faq\#collection                                                | 3.7 million images from about 1.2 million papers                  |
+| U-Xray                        | Multimodel                       | https://openi.nlm.nih.gov/                                                               | 3,955 reports and 7,470 images                                    |
+| ROCO                          | Multimodel                       | https://github.com/razorx89/roco-dataset                                                 | 81,000 radiology images and corresponding captions                |
+| MedICaT                       | Multimodel                       | https://github.com/allenai/medicat                                                       | 17,000 images includes captions                                   |
+| PMC-OA                        | Multimodel                       | https://huggingface.co/datasets/axiong/pmc\_oa\_beta                                     | 1.6M image-caption pairs                                          |
+| CheXpert                      | Multimodel                       | https://aimi.stanford.edu/chexpert-chest-x-rays                                          | 224,316 chest radiographs with associated reports                 |
+| PadChest                      | Multimodel                       | http://bimcv.cipf.es/bimcv-projects/padchest/                                            | 160,000 images  with related text                                 |
+| MIMIC-CXR                     | Multimodel                       | https://mimic.mit.edu/docs/iv/modules/cxr/                                               | 227,835 imaging studies for 64,588 patients                       |
+| PMC-15M                       | Multimodel                       |                                                                                          | 15 million Figure-caption                                         |
+| pairs                         | https://arxiv.org/abs/2303.00915 |                                                                                          |                                                                   |
+| OpenPath                      | Multimodel                       | https://laion.ai/blog/laion-5b/                                                          | 208,414 pathology images related descriptions                     |
 
 
 ## Models
