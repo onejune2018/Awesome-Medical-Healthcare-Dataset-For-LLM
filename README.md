@@ -101,6 +101,34 @@ A curated list of popular Datasets, Models and Papers for LLMs in Medical/Health
 | [Paper Name](arxiv link) | Institute Name <br> ![citations](https://img.shields.io/badge/dynamic/json?url=https://api.semanticscholar.org/graph/v1/paper/CorpusID:12345678?fields=citationCount&query=%24.citationCount&label=citations) | 20xx-xx | [HuggingFace](https://github.com) <br> ![Likes](https://img.shields.io/badge/dynamic/json?url=https://huggingface.co/api/models/&query=%24.likes&label=🤗+Likes)
 -->
 
+## Popular LLMs
+
+| **Model Name**                             | **Base**       | **Para. (B)**     | **Features**                                    | **Date** | **Link**                                                               |
+|--------------------------------------------|----------------|-------------------|-------------------------------------------------|----------|------------------------------------------------------------------------|
+| GatorTron          | Transformer    | 0.345, 3.9, 8.9   | Training from scratch                           | 06/2022  |  https://github.com/uf-hobi-informatics-lab/GatorTron     |
+| Codex-Med              | GPT-3.5        | 175               | CoT, Zero-shot                                  | 07/2022  |  https://github.com/vlievin/medical-reasoning             |
+| Galactica        | Transformer    | 1.3, 6.4, 30, 120 | Reasoning, Multidisciplinary                    | 11/2022  |  https://galactica.org                                       |
+| Med-PaLM            | Flan-PaLM/PaLM | 540               | CoT, Self-consistency                           | 12/2022  | -                                                                      |
+| GPT-4-Med                   | GPT-4          | -                 | no specialized prompt crafting                  | 03/2023  | -                                                                      |
+| DeID-GPT                 | GPT-4          | -                 | De-identifying                                  | 03/2023  |  https://github.com/yhydhx/ChatGPT-API                    |
+| ChatDoctor    | LLaMA          | 7                 | Retrieve online, external knowledge             | 03/2023  |  https://github.com/Kent0n-Li/ChatDoctor                  |
+| DoctorGLM         | ChatGLM        | 6                 | Extra prompt designer                           | 04/2023  |  https://github.com/xionghonglin/DoctorGLM                |
+| MedAlpaca           | LLaMA          | 7, 13             | Adapt to Medicine                               | 04/2023  |  https://github.com/kbressem/medAlpaca                    |
+| BenTsao               | LLaMA          | 7                 | Knowledge graph                                 | 04/2023  |  https://github.com/SCIR-HI/ Huatuo-Llama-Med-Chinese     |
+| PMC-LLaMA                  | LLaMA          | 7                 | Adapt to Medicine                               | 04/2023  |  https://github.com/chaoyi-wu/PMC-LLaMA                   |
+| Visual Med-Alpaca  | LLaMA          | 7                 | multimodal generative model, Self-Instruct      | 04/2023  |  https://github.com/cambridgeltl/visual-med-alpaca        |
+| BianQue~            | ChatGLM        | 6                 | Chain of Questioning                            | 04/2023  |  https://github.com/scutcyr/BianQue                       |
+| Med-PaLM 2        | PaLM 2         | 340               | Ensemble refinement, CoT, Self-consistency      | 05/2023  | -                                                                      |
+| GatorTronGPT           | GPT-3          | 5, 20             | Training from scratch for medicine              | 05/2023  |  https://github.com/uf-hobi-informatics-lab/GatorTronGPT  |
+| HuatuoGPT         | Bloomz         | 7                 | Reinforced learning from AI feedback            | 05/2023  |  https://github.com/FreedomIntelligence/HuatuoGPT         |
+| ClinicalGPT      | BLOOM          | 7                 | multi-round dialogue consultations              | 06/2023  | -                                                                      |
+| MedAGI                  | MiniGPT-4      | -                 | multimodal, AGI                                 | 06/2023  |  https://github.com/JoshuaChou2018/MedAGI                 |
+| LLaVA-Med                | LLaVA          | 13                | multimodal, self-instruct,  curriculum learning | 06/2023  |  https://github.com/microsoft/LLaVA-Med                   |
+| OphGLM                 | ChatGLM        | 6                 | multimodal, Ophthalmology LLM                   | 06/2023  |  https://github.com/ML-AILab/OphGLM                       |
+| SoulChat            | ChatGLM        | 6                 | Mental Healthcare                               | 06/2023  |  https://github.com/scutcyr/SoulChat                      |
+| Med-Flamingo             | Flamingo       | 80B               | multimodal, Few-Shot generative medical VQA     | 07/2023  |  https://github.com/snap-stanford/med-flamingo            |
+
+
 
 ## Papers
 
@@ -152,6 +180,9 @@ A curated list of popular Datasets, Models and Papers for LLMs in Medical/Health
 - Interpretable RNA Foundation Model from Unannotated Data for Highly Accurate RNA Structure and Function Predictions [[Paper]](https://www.biorxiv.org/content/10.1101/2022.08.06.503062v2.abstract) [[Code]](https://github.com/ml4bio/rna-fm)
 - E2Efold-3D: End-to-End Deep Learning Method for accurate de novo RNA 3D Structure Prediction [[Paper]](https://www.biorxiv.org/content/10.1101/2022.08.06.503062v2.abstract) [[Code]](https://github.com/ml4bio/rna-fm)
 
+
+## Other Awesome List
+[LLM-for-Healthcare](https://github.com/KaiHe-better/LLM-for-Healthcare) - A Survey of Large Language Models for Healthcare: from Data, Technology, and Applications to Accountability and Ethics.
 
 ## Licenses
 
