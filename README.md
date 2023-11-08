@@ -30,8 +30,8 @@ A curated list of popular Datasets, Models and Papers for LLMs in Medical/Health
 
 ### 英文
 
-| **数据集名称**                      | **内容概述**                         | **获取链接**                                                                                 | **数据大小**                                                          |
-|-------------------------------|----------------------------------|------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| **数据集名称**       | **内容概述**          | **获取链接**         | **数据大小**        |
+|--------------------|---------------------|---------------------|--------------------|
 | MIMIC-III                     | EHR                              | https://mimic.mit.edu/docs/iii/                                                          | 58,976 hospital admissions for 38,597 patients                    |
 | MIMIC-IV                      | EHR                              | https://mimic.mit.edu/docs/iv/                                                           | covering a decade of admissions between 2008 and 2019             |
 | CPRD                          | EHR                              | https://cprd.com/data                                                                    | over 2,000 primary care practices and include 60 million patients |
