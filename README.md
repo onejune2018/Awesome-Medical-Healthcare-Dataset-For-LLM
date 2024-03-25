@@ -202,7 +202,7 @@ A curated list of popular Datasets, Models and Papers for LLMs in Medical/Health
 
 ```
 @misc{medllmdata2023,
-  author = {Jun Wang, Changyu Hou, Xiaorui Wang, Jingjing Gong ,Chen Song, Qi Shen, Guotong Xie},
+  author = {Jun Wang, Changyu Hou, Pengyong Li, Jingjing Gong ,Chen Song, Qi Shen, Guotong Xie},
   title = {Awesome Dataset for Medical LLM: A curated list of popular Datasets, Models and Papers for LLMs in Medical/Healthcare},
   year = {2023},
   publisher = {GitHub},
