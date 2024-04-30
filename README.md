@@ -78,6 +78,30 @@ A curated list of popular Datasets, Models and Papers for LLMs in Medical/Health
 
 
 ## Models
+
+| 模型 | 地址 | 简介 |
+| --- | --- | --- |
+| DoctorGLM | [DoctorGLM](https://github.com/xionghonglin/DoctorGLM) | 基于 ChatGLM-6B的中文问诊模型，通过中文医疗对话数据集进行微调，实现了包括lora、p-tuningv2等微调及部署 |
+| BenTsao | [BenTsao](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese) | 开源了经过中文医学指令精调/指令微调(Instruct-tuning) 的LLaMA-7B模型。通过医学知识图谱和GPT3.5 API构建了中文医学指令数据集，并在此基础上对LLaMA进行了指令微调，提高了LLaMA在医疗领域的问答效果。 |
+| BianQue | [BianQue](https://github.com/scutcyr/BianQue) | 一个经过指令与多轮问询对话联合微调的医疗对话大模型，基于ClueAI/ChatYuan-large-v2作为底座，使用中文医疗问答指令与多轮问询对话混合数据集进行微调。 |
+| HuatuoGPT | [HuatuoGPT](https://github.com/FreedomIntelligence/HuatuoGPT) | 开源了经过中文医学指令精调/指令微调(Instruct-tuning)的一个GPT-like模型 |
+| Med-ChatGLM | [Med-ChatGLM](https://github.com/SCIR-HI/Med-ChatGLM) | 基于中文医学知识的ChatGLM模型微调，微调数据与BenTsao相同。 |
+| QiZhenGPT | [QiZhenGPT](https://github.com/CMKRG/QiZhenGPT) | 该项目利用启真医学知识库构建的中文医学指令数据集，并基于此在LLaMA-7B模型上进行指令精调，大幅提高了模型在中文医疗场景下效果，首先针对药品知识问答发布了评测数据集，后续计划优化疾病、手术、检验等方面的问答效果，并针对医患问答、病历自动生成等应用展开拓展。 |
+| ChatMed | [ChatMed](https://github.com/michael-wzhu/ChatMed) | 该项目推出ChatMed系列中文医疗大规模语言模型，模型主干为LlaMA-7b并采用LoRA微调，具体包括ChatMed-Consult : 基于中文医疗在线问诊数据集ChatMed_Consult_Dataset的50w+在线问诊+ChatGPT回复作为训练集；ChatMed-TCM : 基于中医药指令数据集ChatMed_TCM_Dataset，以开源的中医药知识图谱为基础，采用以实体为中心的自指令方法(entity-centric self-instruct)，调用ChatGPT得到2.6w+的围绕中医药的指令数据训练得到。 |
+| XrayGLM | [XrayGLM](https://github.com/WangRongsheng/XrayGLM) | 该项目为促进中文领域医学多模态大模型的研究发展，发布了XrayGLM数据集及模型，其在医学影像诊断和多轮交互对话上显示出了非凡的潜力。 |
+| MeChat | [MeChat](https://github.com/qiuhuachuan/smile) | 该项目开源的中文心理健康支持通用模型由 ChatGLM-6B LoRA 16-bit 指令微调得到。数据集通过调用gpt-3.5-turbo API扩展真实的心理互助 QA为多轮的心理健康支持多轮对话，提高了通用语言大模型在心理健康支持领域的表现，更加符合在长程多轮对话的应用场景。 |
+| MedicalGPT | [MedicalGPT](https://github.com/shibing624/MedicalGPT) | 训练医疗大模型，实现包括二次预训练、有监督微调、奖励建模、强化学习训练。发布中文医疗LoRA模型shibing624/ziya-llama-13b-medical-lora，基于Ziya-LLaMA-13B-v1模型，SFT微调了一版医疗模型，医疗问答效果有提升，发布微调后的LoRA权重。 |
+| Sunsimiao | [Sunsimiao](https://github.com/thomas-yanxin/Sunsimiao) | Sunsimiao是一个开源的中文医疗大模型，该模型基于baichuan-7B和ChatGLM-6B底座模型在十万级高质量的中文医疗数据中微调而得。 |
+| ShenNong-TCM-LLM | [ShenNong-TCM-LLM](https://github.com/michael-wzhu/ShenNong-TCM-LLM) | 该项目开源了ShenNong中医药大规模语言模型，该模型以LlaMA为底座，采用LoRA (rank=16)微调得到。微调代码与ChatMed代码库相同。此外该项目还开源了中医药指令微调数据集。 |
+| SoulChat | [SoulChat](https://github.com/scutcyr/SoulChat) | 该项目开源了经过百万规模心理咨询领域中文长文本指令与多轮共情对话数据联合指令微调的心理健康大模型灵心（SoulChat），该模型以ChatGLM-6B作为初始化模型，进行了全量参数的指令微调。 |
+| CareGPT | [CareGPT](https://github.com/WangRongsheng/CareGPT) | 该项目开源了数十个公开可用的医疗微调数据集和开放可用的医疗大语言模型，包含LLM的训练、测评、部署等以促进医疗LLM快速发展。 |
+| DISC-MedLLM | [DISC-MedLLM](https://github.com/FudanDISC/DISC-MedLLM) | 该项目是由复旦大学发布的针对医疗健康对话式场景而设计的医疗领域大模型与数据集，该模型由DISC-Med-SFT数据集基于Baichuan-13B-Base指令微调得到。 |
+| Taiyi-LLM | [Taiyi-LLM](https://github.com/DUTIR-BioNLP/Taiyi-LLM) | 该项目由大连理工大学信息检索研究室开发的中英双语医学大模型"太一"，收集整理了丰富的中英双语生物医学自然语言处理（BioNLP）训练语料，总共包含38个中文数据集，通过丰富的中英双语任务指令数据（超过100W条样本）进行大模型（Qwen-7B-base）指令微调，使模型具备了出色的中英双语生物医学智能问答、医患对话、报告生成、信息抽取、机器翻译、标题生成、文本分类等多种BioNLP能力。 |
+| WiNGPT | [WiNGPT](https://github.com/winninghealth/WiNGPT2) | WiNGPT是一个基于GPT的医疗垂直领域大模型，基于Qwen-7b1作为基础预训练模型，在此技术上进行了继续预训练，指令微调等，该项目具体开源了WiNGPT2-7B-Base与WiNGPT2-7B-Chat模型。 |
+| ChiMed-GPT | [ChiMed-GPT](https://github.com/synlp/ChiMed-GPT) | ChiMed-GPT是一个开源中文医学大语言模型，通过在中文医学数据上持续训练 Ziya-v2 构建而成，其中涵盖了预训练、有监督微调 (SFT) 和来自人类反馈的强化学习 (RLHF) 等训练过程。 |
+| MindChat | [MindChat](https://github.com/X-D-Lab/MindChat) | 心理大模型——漫谈(MindChat)期望从心理咨询、心理评估、心理诊断、心理治疗四个维度帮助人们纾解心理压力与解决心理困惑，为用户提供隐私、温暖、安全、及时、方便的对话环境，从而帮助用户克服各种困难和挑战，实现自我成长和发展。MindChat是一个基于Qwen作为基础预训练模型，并在此基础上进行指令微调得到的心理垂域大模型。 |
+
+
 | Title | Institute | Date | Code
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------: | :-----------: | :---------: |
 |[DoctorGPT](https://huggingface.co/llSourcell/medllama2_7b) | Sirajraval, GPT School | 2023-08 | [Github](https://github.com/llSourcell/DoctorGPT) 
@@ -100,6 +124,7 @@ A curated list of popular Datasets, Models and Papers for LLMs in Medical/Health
 <!--
 | [Paper Name](arxiv link) | Institute Name <br> ![citations](https://img.shields.io/badge/dynamic/json?url=https://api.semanticscholar.org/graph/v1/paper/CorpusID:12345678?fields=citationCount&query=%24.citationCount&label=citations) | 20xx-xx | [HuggingFace](https://github.com) <br> ![Likes](https://img.shields.io/badge/dynamic/json?url=https://huggingface.co/api/models/&query=%24.likes&label=🤗+Likes)
 -->
+
 
 ## Popular LLMs
 
