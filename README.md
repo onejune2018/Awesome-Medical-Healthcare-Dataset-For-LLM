@@ -104,6 +104,7 @@ A curated list of popular Datasets, Models and Papers for LLMs in Medical/Health
 
 | Title | Institute | Date | Code
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------: | :-----------: | :---------: |
+| [Aloe: A Family of Fine-tuned Open Healthcare LLMs](https://arxiv.org/abs/2405.01886) | Barcelona Supercomputing Center | 2024-11 | [HuggingFace](https://huggingface.co/collections/HPAI-BSC/healthcare-llms-aloe-family-6701b6a777f7e874a2123363) |
 |[DoctorGPT](https://huggingface.co/llSourcell/medllama2_7b) | Sirajraval, GPT School | 2023-08 | [Github](https://github.com/llSourcell/DoctorGPT) 
 | [CoDoC: Enhancing the reliability and accuracy of AI-enabled diagnosis via complementarity-driven deferral to clinicians](https://www.nature.com/articles/s41591-023-02437-x) | DeepMind, Google <br> ![citations](https://img.shields.io/badge/dynamic/json?url=https://api.semanticscholar.org/graph/v1/paper/CorpusID:259939727?fields=citationCount&query=%24.citationCount&label=citations) | 2023-07 | [Github](https://github.com/deepmind/codoc/tree/main) <br> ![Star](https://img.shields.io/github/stars/deepmind/codoc?style=social&label=Stars)
 | [Med-PaLM 2: Towards Expert-Level Medical Question Answering with Large Language Models](https://arxiv.org/pdf/2305.09617.pdf) | Google <br> ![citations](https://img.shields.io/badge/dynamic/json?url=https://api.semanticscholar.org/graph/v1/paper/CorpusID:258715226?fields=citationCount&query=%24.citationCount&label=citations) | 2023-05 | -
@@ -157,6 +158,7 @@ A curated list of popular Datasets, Models and Papers for LLMs in Medical/Health
 
 ## Papers
 
+- Aloe: A Family of Fine-tuned Open Healthcare LLMs: [[Paper]](https://arxiv.org/abs/2405.01886)
 - Med-PaLM 2: Towards Expert-Level Medical Question Answering with Large Language Models [[Paper]](https://arxiv.org/pdf/2305.09617.pdf)
 - KeBioLM: Improving Biomedical Pretrained Language Models with Knowledge [[Paper]](https://arxiv.org/abs/2104.10344)
 - BioELMo: Probing Biomedical Embeddings from Language Models [[Paper]](https://arxiv.org/abs/1904.02181)
