@@ -75,6 +75,7 @@ A curated list of popular Datasets, Models and Papers for LLMs in Medical/Health
 | PMC-15M                       | Multimodel                       |                                                                                          | 15 million Figure-caption                                         |
 | pairs                         | https://arxiv.org/abs/2303.00915 |                                                                                          |                                                                   |
 | OpenPath                      | Multimodel                       | https://laion.ai/blog/laion-5b/                                                          | 208,414 pathology images related descriptions                     |
+- [Level Healthcare Revenue Cycle & MSO-PC Benchmark Dataset](https://github.com/levelcfo/smb-financial-benchmarks) ([Report](https://levelcfo.com/benchmarks/healthcare/) | [LevelBench-100](https://github.com/levelcfo/levelbench-100)) - Open dataset of outpatient clinic revenue-cycle benchmarks (Days in Net A/R, claim denial rates, POS collection %) and synthetic ERA/835 cardiology & MSO-PC consolidation test worlds for LLM evaluation.
 
 
 ## Models
